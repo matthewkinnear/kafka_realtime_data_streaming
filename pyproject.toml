@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kafka-de-project"
+version = "0.1.0"
+description = ""
+authors = ["optmk <matthew.kinnear@optimizon.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+apache-airflow = "^2.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
